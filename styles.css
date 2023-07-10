@@ -15,6 +15,7 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     position: relative;
+    min-height: 100vh;
 }
 
 img {
@@ -98,6 +99,14 @@ footer i:hover {
     body {
         background-image: url('images/bg-desktop.svg');
         background-size: cover;
+    }
+
+    header .logo {
+        width: 200px;
+    }
+
+    .btn {
+        font-size: 1rem;
     }
 
     .container {
